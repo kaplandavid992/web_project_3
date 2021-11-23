@@ -10,35 +10,97 @@
   </head>
 
   <body class="page">
-    <header>
-      <div class="header__logo">
-        <svg width="270" height="70" viewBox="0 0 270 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0.320312 69.0001H4.26918V64.6819H6.45668C9.77344 64.6819 11.9964 62.7288 11.9964 59.5967C11.9964 56.5001 9.83026 54.4546 6.59872 54.4546H0.320312V69.0001ZM4.26918 61.6137V57.608H5.66122C7.04617 57.608 7.87713 58.3467 7.87713 59.5967C7.87713 60.8396 7.04617 61.6137 5.66122 61.6137H4.26918Z" fill="white"/>
-          <path d="M13.4453 69.0001H17.3942V64.1989H18.7578L21.3146 69.0001H25.6044L22.6499 63.5739C24.1982 62.8282 25.1214 61.4149 25.1214 59.3978C25.1214 56.3012 22.9553 54.4546 19.7237 54.4546H13.4453V69.0001ZM17.3942 61.1308V57.608H18.7862C20.1712 57.608 21.0021 58.1478 21.0021 59.3978C21.0021 60.6407 20.1712 61.1308 18.7862 61.1308H17.3942Z" fill="white"/>
-          <path d="M30.5832 69.0001L31.4213 66.216H36.2224L37.0605 69.0001H41.3218L36.5207 54.4546H31.123L26.3218 69.0001H30.5832ZM32.3162 63.2614L33.765 58.4603H33.8787L35.3275 63.2614H32.3162Z" fill="white"/>
-          <path d="M55.6188 59.9093C55.3063 56.3013 52.6643 54.2559 48.9995 54.2559C45.079 54.2559 41.9824 56.8695 41.9824 61.7275C41.9824 66.5641 44.9938 69.199 48.9995 69.199C53.2609 69.199 55.4199 66.2445 55.6188 63.7729L51.6131 63.7445C51.4143 64.9874 50.5336 65.7615 49.0847 65.7615C47.16 65.7615 46.0449 64.3979 46.0449 61.7275C46.0449 59.199 47.1245 57.6934 49.1131 57.6934C50.633 57.6934 51.4995 58.5882 51.6131 59.9093H55.6188Z" fill="white"/>
-          <path d="M57.0122 57.6364H61.3872V69.0001H65.2793V57.6364H69.6543V54.4546H57.0122V57.6364Z" fill="white"/>
-          <path d="M75.0895 54.4546H71.1406V69.0001H75.0895V54.4546Z" fill="white"/>
-          <path d="M90.5407 59.9093C90.2282 56.3013 87.5861 54.2559 83.9214 54.2559C80.0009 54.2559 76.9043 56.8695 76.9043 61.7275C76.9043 66.5641 79.9157 69.199 83.9214 69.199C88.1827 69.199 90.3418 66.2445 90.5407 63.7729L86.535 63.7445C86.3361 64.9874 85.4555 65.7615 84.0066 65.7615C82.0819 65.7615 80.9668 64.3979 80.9668 61.7275C80.9668 59.199 82.0464 57.6934 84.035 57.6934C85.5549 57.6934 86.4214 58.5882 86.535 59.9093H90.5407Z" fill="white"/>
-          <path d="M100.94 54.4546V63.4319C100.94 64.7884 99.967 65.7614 98.6104 65.7614C97.2539 65.7614 96.2809 64.7884 96.2809 63.4319V54.4546H92.332V63.7728C92.332 67.0967 94.8462 69.1705 98.6104 69.1705C102.346 69.1705 104.889 67.0967 104.889 63.7728V54.4546H100.94Z" fill="white"/>
-          <path d="M106.766 54.4546V69.0001H110.629V60.5342H110.743L113.982 68.8864H116.311L119.55 60.591H119.663V69.0001H123.527V54.4546H118.612L115.232 62.6933H115.061L111.68 54.4546H106.766Z" fill="white"/>
-          <path d="M133.161 69.0001L133.999 66.216H138.8L139.638 69.0001H143.9L139.099 54.4546H133.701L128.9 69.0001H133.161ZM134.894 63.2614L136.343 58.4603H136.457L137.906 63.2614H134.894Z" fill="white"/>
-          <path d="M145.301 69.0001H149.25V64.1989H150.613L153.17 69.0001H157.46L154.505 63.5739C156.054 62.8282 156.977 61.4149 156.977 59.3978C156.977 56.3012 154.811 54.4546 151.579 54.4546H145.301V69.0001ZM149.25 61.1308V57.608H150.642C152.027 57.608 152.858 58.1478 152.858 59.3978C152.858 60.6407 152.027 61.1308 150.642 61.1308H149.25Z" fill="white"/>
-          <path d="M158.262 57.6364H162.637V69.0001H166.529V57.6364H170.904V54.4546H158.262V57.6364Z" fill="white"/>
-          <path d="M185.821 59.2559H189.812C189.507 56.3368 186.858 54.2559 183.42 54.2559C179.5 54.2559 176.318 56.9547 176.318 61.7559C176.318 66.3581 179.202 69.199 183.449 69.199C187.256 69.199 189.983 66.8695 189.983 62.8922V60.8752H183.534V63.6877H186.176C186.141 64.9519 185.246 65.7615 183.477 65.7615C181.432 65.7615 180.381 64.2559 180.381 61.699C180.381 59.1777 181.517 57.6934 183.506 57.6934C184.741 57.6934 185.58 58.2615 185.821 59.2559Z" fill="white"/>
-          <path d="M195.153 69.0001L195.991 66.216H200.793L201.631 69.0001H205.892L201.091 54.4546H195.693L190.892 69.0001H195.153ZM196.886 63.2614L198.335 58.4603H198.449L199.898 63.2614H196.886Z" fill="white"/>
-          <path d="M207.293 69.0001H217.123V65.8183H211.242V54.4546H207.293V69.0001Z" fill="white"/>
-          <path d="M218.719 69.0001H228.548V65.8183H222.668V54.4546H218.719V69.0001Z" fill="white"/>
-          <path d="M230.145 69.0001H240.599V65.8183H234.093V63.3183H240.088V60.1364H234.093V57.6364H240.627V54.4546H230.145V69.0001Z" fill="white"/>
-          <path d="M242.586 69.0001H246.535V64.1989H247.898L250.455 69.0001H254.745L251.79 63.5739C253.339 62.8282 254.262 61.4149 254.262 59.3978C254.262 56.3012 252.096 54.4546 248.864 54.4546H242.586V69.0001ZM246.535 61.1308V57.608H247.927C249.312 57.608 250.143 58.1478 250.143 59.3978C250.143 60.6407 249.312 61.1308 247.927 61.1308H246.535Z" fill="white"/>
-          <path d="M254.665 54.4546L260.006 64.4262V69.0001H263.926V64.4262L269.267 54.4546H264.864L262.023 60.3637H261.909L259.069 54.4546H254.665Z" fill="white"/>
-          <path d="M118 2C118 0.895431 118.895 0 120 0H148C149.105 0 150 0.895431 150 2V30C150 31.1046 149.105 32 148 32H120C118.895 32 118 31.1046 118 30V2Z" fill="#0278FE"/>
-          <path d="M150 6H118V8H150V6Z" fill="#2A2C2F"/>
-          <path d="M131 6H129V32H131V6Z" fill="#2A2C2F"/>
-          </svg>
-              
-      </div>
-    </header>
+    <svg
+      class="header__logo"
+      width="270"
+      height="70"
+      viewBox="0 0 270 70"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.320312 69.0001H4.26918V64.6819H6.45668C9.77344 64.6819 11.9964 62.7288 11.9964 59.5967C11.9964 56.5001 9.83026 54.4546 6.59872 54.4546H0.320312V69.0001ZM4.26918 61.6137V57.608H5.66122C7.04617 57.608 7.87713 58.3467 7.87713 59.5967C7.87713 60.8396 7.04617 61.6137 5.66122 61.6137H4.26918Z"
+        fill="white"
+      />
+      <path
+        d="M13.4453 69.0001H17.3942V64.1989H18.7578L21.3146 69.0001H25.6044L22.6499 63.5739C24.1982 62.8282 25.1214 61.4149 25.1214 59.3978C25.1214 56.3012 22.9553 54.4546 19.7237 54.4546H13.4453V69.0001ZM17.3942 61.1308V57.608H18.7862C20.1712 57.608 21.0021 58.1478 21.0021 59.3978C21.0021 60.6407 20.1712 61.1308 18.7862 61.1308H17.3942Z"
+        fill="white"
+      />
+      <path
+        d="M30.5832 69.0001L31.4213 66.216H36.2224L37.0605 69.0001H41.3218L36.5207 54.4546H31.123L26.3218 69.0001H30.5832ZM32.3162 63.2614L33.765 58.4603H33.8787L35.3275 63.2614H32.3162Z"
+        fill="white"
+      />
+      <path
+        d="M55.6188 59.9093C55.3063 56.3013 52.6643 54.2559 48.9995 54.2559C45.079 54.2559 41.9824 56.8695 41.9824 61.7275C41.9824 66.5641 44.9938 69.199 48.9995 69.199C53.2609 69.199 55.4199 66.2445 55.6188 63.7729L51.6131 63.7445C51.4143 64.9874 50.5336 65.7615 49.0847 65.7615C47.16 65.7615 46.0449 64.3979 46.0449 61.7275C46.0449 59.199 47.1245 57.6934 49.1131 57.6934C50.633 57.6934 51.4995 58.5882 51.6131 59.9093H55.6188Z"
+        fill="white"
+      />
+      <path
+        d="M57.0122 57.6364H61.3872V69.0001H65.2793V57.6364H69.6543V54.4546H57.0122V57.6364Z"
+        fill="white"
+      />
+      <path
+        d="M75.0895 54.4546H71.1406V69.0001H75.0895V54.4546Z"
+        fill="white"
+      />
+      <path
+        d="M90.5407 59.9093C90.2282 56.3013 87.5861 54.2559 83.9214 54.2559C80.0009 54.2559 76.9043 56.8695 76.9043 61.7275C76.9043 66.5641 79.9157 69.199 83.9214 69.199C88.1827 69.199 90.3418 66.2445 90.5407 63.7729L86.535 63.7445C86.3361 64.9874 85.4555 65.7615 84.0066 65.7615C82.0819 65.7615 80.9668 64.3979 80.9668 61.7275C80.9668 59.199 82.0464 57.6934 84.035 57.6934C85.5549 57.6934 86.4214 58.5882 86.535 59.9093H90.5407Z"
+        fill="white"
+      />
+      <path
+        d="M100.94 54.4546V63.4319C100.94 64.7884 99.967 65.7614 98.6104 65.7614C97.2539 65.7614 96.2809 64.7884 96.2809 63.4319V54.4546H92.332V63.7728C92.332 67.0967 94.8462 69.1705 98.6104 69.1705C102.346 69.1705 104.889 67.0967 104.889 63.7728V54.4546H100.94Z"
+        fill="white"
+      />
+      <path
+        d="M106.766 54.4546V69.0001H110.629V60.5342H110.743L113.982 68.8864H116.311L119.55 60.591H119.663V69.0001H123.527V54.4546H118.612L115.232 62.6933H115.061L111.68 54.4546H106.766Z"
+        fill="white"
+      />
+      <path
+        d="M133.161 69.0001L133.999 66.216H138.8L139.638 69.0001H143.9L139.099 54.4546H133.701L128.9 69.0001H133.161ZM134.894 63.2614L136.343 58.4603H136.457L137.906 63.2614H134.894Z"
+        fill="white"
+      />
+      <path
+        d="M145.301 69.0001H149.25V64.1989H150.613L153.17 69.0001H157.46L154.505 63.5739C156.054 62.8282 156.977 61.4149 156.977 59.3978C156.977 56.3012 154.811 54.4546 151.579 54.4546H145.301V69.0001ZM149.25 61.1308V57.608H150.642C152.027 57.608 152.858 58.1478 152.858 59.3978C152.858 60.6407 152.027 61.1308 150.642 61.1308H149.25Z"
+        fill="white"
+      />
+      <path
+        d="M158.262 57.6364H162.637V69.0001H166.529V57.6364H170.904V54.4546H158.262V57.6364Z"
+        fill="white"
+      />
+      <path
+        d="M185.821 59.2559H189.812C189.507 56.3368 186.858 54.2559 183.42 54.2559C179.5 54.2559 176.318 56.9547 176.318 61.7559C176.318 66.3581 179.202 69.199 183.449 69.199C187.256 69.199 189.983 66.8695 189.983 62.8922V60.8752H183.534V63.6877H186.176C186.141 64.9519 185.246 65.7615 183.477 65.7615C181.432 65.7615 180.381 64.2559 180.381 61.699C180.381 59.1777 181.517 57.6934 183.506 57.6934C184.741 57.6934 185.58 58.2615 185.821 59.2559Z"
+        fill="white"
+      />
+      <path
+        d="M195.153 69.0001L195.991 66.216H200.793L201.631 69.0001H205.892L201.091 54.4546H195.693L190.892 69.0001H195.153ZM196.886 63.2614L198.335 58.4603H198.449L199.898 63.2614H196.886Z"
+        fill="white"
+      />
+      <path
+        d="M207.293 69.0001H217.123V65.8183H211.242V54.4546H207.293V69.0001Z"
+        fill="white"
+      />
+      <path
+        d="M218.719 69.0001H228.548V65.8183H222.668V54.4546H218.719V69.0001Z"
+        fill="white"
+      />
+      <path
+        d="M230.145 69.0001H240.599V65.8183H234.093V63.3183H240.088V60.1364H234.093V57.6364H240.627V54.4546H230.145V69.0001Z"
+        fill="white"
+      />
+      <path
+        d="M242.586 69.0001H246.535V64.1989H247.898L250.455 69.0001H254.745L251.79 63.5739C253.339 62.8282 254.262 61.4149 254.262 59.3978C254.262 56.3012 252.096 54.4546 248.864 54.4546H242.586V69.0001ZM246.535 61.1308V57.608H247.927C249.312 57.608 250.143 58.1478 250.143 59.3978C250.143 60.6407 249.312 61.1308 247.927 61.1308H246.535Z"
+        fill="white"
+      />
+      <path
+        d="M254.665 54.4546L260.006 64.4262V69.0001H263.926V64.4262L269.267 54.4546H264.864L262.023 60.3637H261.909L259.069 54.4546H254.665Z"
+        fill="white"
+      />
+      <path
+        d="M118 2C118 0.895431 118.895 0 120 0H148C149.105 0 150 0.895431 150 2V30C150 31.1046 149.105 32 148 32H120C118.895 32 118 31.1046 118 30V2Z"
+        fill="#0278FE"
+      />
+      <path d="M150 6H118V8H150V6Z" fill="#2A2C2F" />
+      <path d="M131 6H129V32H131V6Z" fill="#2A2C2F" />
+    </svg>
 
     <section class="lead">
       <h1 class="lead__title">From Homeland to Homeland</h1>
@@ -47,20 +109,198 @@
       </p>
       <img src="./images/__image.jpg" class="lead__image" />
     </section>
+
     <section class="intro">
-      
+      <h2 class="intro__title">
+        Know the places your online pals come from a little better
+      </h2>
+
+      <p class="intro__text">
+        Every human being is an artist, a freedom being, called to participate
+        in transforming and reshaping the conditions, thinking, and structures
+        that shape and inform our lives.
+      </p>
+
+      <p class="intro__text">— Joseph Beuys</p>
+
+      <p class="intro__text">
+        The town of Practicum has brought together professionals from different
+        corners of the world. Today, Practicum Art Gallery is proud to present
+        stories and pictures from some of the people who dedicate their time and
+        effort to making the future tech professionals of this town feel at
+        home. Each of us has a unique story about the place we come from. Feel
+        free to add your own story and a piece of visual art dedicated to your
+        hometown to our collection. No matter where you're from, we're glad that
+        you're our neighbor.
+      </p>
     </section>
     <section class="photo-grid">
-
+      <img
+        class="photo-grid__item"
+        src="./images/__item1.jpg"
+        alt="beach and town view with  cloud in the sky"
+      />
+      <img
+        class="photo-grid__item"
+        src="./images/__item2.jpg"
+        alt="view of town with a bit of the beach in view 
+                      some scattered clouds"
+      />
+      <img class="photo-grid__item" src="./images/__item3.jpg" alt="" />
+      <img class="photo-grid__item" src="./images/__item4.jpg" alt="" />
+      <img class="photo-grid__item" src="./images/__item5.jpg" alt="" />
+      <img class="photo-grid__item" src="./images/__item6.jpg" alt="" />
+      <img class="photo-grid__item" src="./images/__item7.jpg" alt="" />
+      <img class="photo-grid__item" src="./images/__item8.jpg" alt="" />
     </section>
+
     <section class="places">
+      <div class="place">
+        <h2 class="place__title">Kyiv, Ukraine</h2>
+        <img src="./images/kyiv1028.jpg" alt="far view of kyiv skyline" />
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy this artwork as NFT</p>
+        </div>
+        <div class="place__website">
+          <p class="place__url-heading">Artist</p>
+          <p class="place__artist">Natalia Dolgushina, content producer</p>
+        </div>
+        <p class="place__paragraph">
+          Kyiv (or Kiev), Ukraine's capital, is a large city located on the
+          shores of the Dnipro river. Of course, no one in their right mind
+          would swim in the river, unless they grew up here, in which case
+          they've probably tried it at some point. Summers are hot here, and the
+          winters are drafty, but the fall and the spring are are absolutely
+          amazing.
+        </p>
 
+        <p class="place__paragraph">
+          The city itself is a mix of pre-revolution, post-war and soviet
+          architecture, all of it sprinkled with modified balconies. If you're
+          on the right bank of the Dnipro, the landscape is difficult to
+          traverse for people on bikes and those wearing heels. The left bank is
+          considered far less interesting and prestigious though, even by people
+          who live on the far outskirts of the right one.
+        </p>
+      </div>
+
+      <div class="place">
+        <h2 class="place__title">Cricieth, Wales</h2>
+        <img src="./images/cricieth-city.jpg" alt="" />
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy this artwork as NFT</p>
+        </div>
+        <div class="place__website">
+          <p class="place__url-heading">Artist</p>
+          <p class="place__artist">Steffan Warren, lead editor</p>
+          <p class="place__artist">Kseniya Glagoleva, project manager</p>
+        </div>
+        <p class="place__paragraph">
+          The medieval ruin of Cricieth Castle overlooks the town below from a
+          rock that juts out into the sea. It is thought to have been built by
+          Llewelyn the Great in the 13th century. Some 900 years later, the
+          self-styled Pearl of Wales on the Shores of Snowdonia has become a
+          popular tourist destination during the summer months.
+        </p>
+
+        <p class="place__paragraph">
+          A short walk down the road from the castle, you can enjoy the world's
+          best ice cream at Cadwalader's, whose secret ingredient is rumored to
+          be locally sourced seaweed. Another claim to fame is the fact that
+          Cricieth won the Wales in Bloom award for five years in a row for its
+          spectacular floral displays around town. It was also home to David
+          Lloyd George, the only Welshman ever to hold the office of Prime
+          Minister of the UK.
+        </p>
+      </div>
+
+      <div class="place">
+        <h2 class="place__title">Berea, USA</h2>
+        <img src="./images/berea-city.jpg" alt="" />
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy this artwork as NFT</p>
+        </div>
+        <div class="place__website">
+          <p class="place__url-heading">Artist</p>
+          <p class="place__artist">Travis Turner, author and editor</p>
+        </div>
+        <p class="place__paragraph">
+          Berea is a small town located in the central part of Kentucky. The
+          town is surrounded by beautiful forests and countryside. It's known as
+          the arts and crafts capital of the state, and visitors will find
+          plenty of shopping opportunities: shops with handmade jewelry,
+          candles, wood items, galleries, glass studios, and more. The town
+          holds a yearly festival celebrating "spoonbread", a local dish made
+          with cornbread and served with a wooden spoon.
+        </p>
+
+        <p class="place__paragraph">
+          However, it's probably known best for the local college. Berea College
+          was founded in 1855 and was the first college in the south to be
+          racially integrated, as well as the first to be coeducational.
+          Somewhat uniquely, it charges no tuition — every student receives a
+          full-tuition scholarship.
+        </p>
+      </div>
+
+      <div class="place">
+        <h2 class="place__title">Muramvya, Burundi</h2>
+        <img src="./images/muramvya-city.jpg" alt="" />
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy this artwork as NFT</p>
+        </div>
+        <div class="place__website">
+          <p class="place__url-heading">Artist</p>
+          <p class="place__artist">Grevisse Kenguruka, tech editor</p>
+        </div>
+        <p class="place__paragraph">
+          Muramvya is one of the 18 provinces of Burundi. In the kingdom era ,
+          Muramvya was the royal capital and in 2007, because of its cultural
+          and natural landscape, it was added to the UNESCO World Heritage
+          Tentative List. It is located in the center of Burundi, between the
+          country's political and economic capitals
+        </p>
+        <p class="place__paragraph">
+          The weather is rather chilly at night, but during the day, you would
+          think you're in heaven. At 2,665 meters (8,743 ft) above sea level,
+          Mount Teza is one of the coldest places in the province. But that cool
+          breeze allows for one of the largest plantations of tea and coffee in
+          the country, which make up the bulk of Burundi's exports.
+        </p>
+        <p class="place__paragraph">
+          The Kibira National Park, one of the largest wildlife reserves for
+          apes, overlaps four provinces, including Muramvya. This National Park
+          lies at the apex of the beautiful mountains of the Congo-Nile Divide,
+          ranging between 1550 and 2660 meters of altitude. It is filled with
+          beautiful vegetation, and a source for the various rivers and streams
+          which provide water around the country.
+        </p>
+      </div>
+
+      <div class="place">
+        <h2 class="place__title">Your hometown</h2>
+        <img src="" alt="" />
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy this artwork as NFT</p>
+        </div>
+        <div class="place__website">
+          <p class="place__url-heading">Artist</p>
+          <p class="place__artist"></p>
+        </div>
+        <p class="place__paragraph"></p>
+        <p class="place__paragraph"></p>
+      </div>
     </section>
+
     <section class="cover">
-
+      <div class="group9">
+        <h2>Visit Us</h2>
+        <p>Year-round Practicum Art Gallery 404 Tim Berners-Lee Ave</p>
+        <div class="frame6">
+          <p class="frame6__paragraph">Buy tickets</p>
+        </div>
+      </div>
     </section>
-    <footer>
-
-    </footer>
+    <footer class="footer__copyright">© 2021. David Kaplan</footer>
   </body>
 </html>
