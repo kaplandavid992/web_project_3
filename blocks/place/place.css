@@ -1,3 +1,9 @@
 .place{
-    
+    display: grid;
+    grid-template-areas:
+    "place__title place__author"
+    "place__image place__text"
+    "button-buy_place place__text";
+    gap: 4.8% 4%;
+    margin-bottom: 80px;
 }

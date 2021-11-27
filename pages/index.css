@@ -9,24 +9,36 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 
+@import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__text/_cite-author/intro__text_cite-author.css);
+@import url(../blocks/intro/__text/_content/intro__text_content.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__website/__url-heading/place__website__url-heading.css);
-@import url(../blocks/place/__website/__artist/place__website__artist.css);
+
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__text/__paragraph/place__text__paragraph.css);
+@import url(../blocks/place/__author/place__author.css);
+@import url(../blocks/place/__author/__artist/place__author__artist.css);
+@import url(../blocks/place/__author/__name-role/place__author__name-role.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/group9/group9.css);
-@import url(../blocks/group9/__title/group9__title.css);
-@import url(../blocks/group9/__subtitle/group9__subtitle.css);
-@import url(../blocks/button-buy/button-buy.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__visit-us/cover__visit-us.css);
+@import url(../blocks/cover/__visit-us/__button/cover__visit-us__button.css);
+@import url(../blocks/cover/__visit-us/__title/cover__visit-us__title.css);
+@import url(../blocks/cover/__visit-us/__subtitle/cover__visit-us__subtitle.css);
+
+@import url(../blocks/button-buy/button-buy.css); 
+@import url(../blocks/button-buy/_place/button-buy_place.css);
 @import url(../blocks/button-buy/__paragraph/button-buy__paragraph.css);
 
 @import url(../blocks/footer/footer.css);

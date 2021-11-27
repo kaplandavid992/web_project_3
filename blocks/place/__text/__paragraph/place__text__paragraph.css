@@ -1,0 +1,16 @@
+.place__text__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  color: #ffffff;
+  grid-area: place__text__paragraph;
+ margin-top: 25px;
+ margin-bottom: 0;
+}
+
+.place__text__paragraph:first-of-type {
+  margin: 0;
+}

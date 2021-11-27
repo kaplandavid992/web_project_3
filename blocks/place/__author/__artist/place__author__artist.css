@@ -1,4 +1,4 @@
-.place__website__url-heading {
+.place__author__artist {
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -8,4 +8,6 @@ line-height: 15px;
 letter-spacing: 0.12em;
 text-transform: uppercase;
 color: #AAAAAA;
+grid-area: place__author__artist;
+margin-bottom: 1.7%;
 }

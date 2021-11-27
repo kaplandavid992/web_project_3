@@ -1,4 +1,4 @@
-.place__website__artist {
+.place__author__name-role {
     font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -6,4 +6,6 @@ font-size: 18px;
 line-height: 22px;
 /* identical to box height, or 122% */
 color: #FFFFFF;
+grid-area:place__author__name-role;
+margin: 0;
 }

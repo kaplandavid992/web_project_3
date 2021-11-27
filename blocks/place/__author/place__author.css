@@ -1,0 +1,6 @@
+.place__author {
+    grid-area: place__author;
+    justify-content: flex-end;
+    display:flex;
+    flex-direction: column;
+}

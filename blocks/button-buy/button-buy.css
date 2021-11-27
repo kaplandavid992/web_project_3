@@ -3,4 +3,6 @@
     background-color: #0278FE;
     border-radius: 4px;
     border-style: none;
+    width: fit-content;
+    height: fit-content;
 }

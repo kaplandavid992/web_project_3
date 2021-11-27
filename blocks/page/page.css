@@ -5,3 +5,7 @@
   max-width: 1280px;
   margin: auto;
 }
+
+* {
+  outline: 1px solid #f00 !important;
+}

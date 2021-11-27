@@ -1,4 +1,4 @@
-.group9__subtitle {
+.cover__visit-us__subtitle {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -6,4 +6,6 @@
   line-height: 122%;
   text-align: center;
   color: #ffffff;
+  width: 42.6%;
+  margin: 4.8% auto 4.8%;
 }
