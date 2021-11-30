@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="autor" content="David Kaplan" />
+    <link rel="stylesheet" href="vendor/normalize.css"/>
     <link rel="stylesheet" href="./pages/index.css" />
     <title>From Homeland to Homeland</title>
   </head>
@@ -185,21 +186,23 @@
     </section>
 
     <section class="places">
+      <div>
       <div class="place">
         <h2 class="place__title">Kyiv, Ukraine</h2>
 
-        <img
-          class="place__image"
-          src="./images/kyiv1028.jpg"
-          alt="far view of kyiv skyline"
-        />
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy button-buy_place"
-          type="button"
-          value="Buy this artwork as NFT"
-        />
+        <div class="place__image-button">
+          <img
+            class="place__image"
+            src="./images/kyiv1028.jpg"
+            alt="far view of kyiv skyline"
+          />
+          <button
+            onclick="location.href='https://google.com';"
+            class="button-buy__paragraph button-buy"
+          >
+            Buy this artwork as NFT
+          </button>
+        </div>
 
         <div class="place__author">
           <p class="place__author__artist">Artist</p>
@@ -230,16 +233,16 @@
 
       <div class="place">
         <h2 class="place__title">Cricieth, Wales</h2>
+        <div class="place__image-button">
+          <img class="place__image" src="./images/cricieth-city.jpg" alt="" />
 
-        <img class="place__image" src="./images/cricieth-city.jpg" alt="" />
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy button-buy_place"
-          type="button"
-          value="Buy this artwork as NFT"
-        />
-
+          <button
+            onclick="location.href='https://google.com';"
+            class="button-buy__paragraph button-buy button-buy_place"
+          >
+            Buy this artwork as NFT
+          </button>
+        </div>
         <div class="place__author">
           <p class="place__author__artist">Artist</p>
           <p class="place__author__name-role">Steffan Warren, lead editor</p>
@@ -270,16 +273,15 @@
 
       <div class="place">
         <h2 class="place__title">Berea, USA</h2>
-
-        <img class="place__image" src="./images/berea-city.jpg" alt="" />
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy button-buy_place"
-          type="button"
-          value="Buy this artwork as NFT"
-        />
-
+        <div class="place__image-button">
+          <img class="place__image" src="./images/berea-city.jpg" alt="" />
+          <button
+            onclick="location.href='https://google.com';"
+            class="button-buy__paragraph button-buy button-buy_place"
+          >
+            Buy this artwork as NFT
+          </button>
+        </div>
         <div class="place__author">
           <p class="place__author__artist">Artist</p>
           <p class="place__author__name-role">
@@ -309,16 +311,19 @@
 
       <div class="place">
         <h2 class="place__title">Muramvya, Burundi</h2>
-
-        <img class="place__image" src="./images/muramvya-city.jpg" alt="" />
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy button-buy_place"
-          type="button"
-          value="Buy this artwork as NFT"
-        />
-
+        <div class="place__image-button">
+          <img
+            class="place__image"
+            src="./images/muramvya-city.jpg"
+            alt="city view muramvya"
+          />
+          <button
+            onclick="location.href='https://google.com';"
+            class="button-buy__paragraph button-buy button-buy_place"
+          >
+            Buy this artwork as NFT
+          </button>
+        </div>
         <div class="place__author">
           <p class="place__author__artist">Artist</p>
           <p class="place__author__name-role">
@@ -354,16 +359,15 @@
 
       <div class="place">
         <h2 class="place__title">Miami, USA</h2>
-
-        <img class="place__image" src="./images/muramvya-city.jpg" alt="" />
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy button-buy_place"
-          type="button"
-          value="Buy this artwork as NFT"
-        />
-
+        <div class="place__image-button">
+          <img class="place__image" src="./images/muramvya-city.jpg" alt="" />
+          <button
+            onclick="location.href='https://google.com';"
+            class="button-buy__paragraph button-buy button-buy_place"
+          >
+            Buy this artwork as NFT
+          </button>
+        </div>
         <div class="place__author">
           <p class="place__author__artist">Artist</p>
           <p class="place__author__name-role">David Kaplan, Author</p>
@@ -392,25 +396,19 @@
     </section>
 
     <section class="cover">
-      <!-- <img
-        class="cover__background"
-        src="images/cover_background.jpg"
-        alt="green filed trees and blue sky"
-      /> -->
-      <div class="cover__visit-us">
+      <div class="cover__overlay"></div>
+      <!-- <div class="cover__visit-us"> -->
         <h2 class="cover__visit-us__title">Visit Us</h2>
         <p class="cover__visit-us__subtitle">
           Year-round Practicum Art Gallery 404 Tim Berners-Lee Ave
         </p>
-
-        <input
-          onclick="location.href='https://google.com';"
-          class="button-buy__paragraph button-buy cover__visit-us__button"
-          type="button"
-          value="Buy tickets"
-        />
-       
-      </div>
+        <button
+          onclick="location.href='https://www.yahoo.com';"
+          class="button-buy__paragraph button-buy button-buy_cover-visit-us"
+        >
+          Buy tickets
+        </button>
+      <!-- </div> -->
     </section>
 
     <footer class="footer">

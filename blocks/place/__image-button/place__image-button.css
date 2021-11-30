@@ -1,0 +1,4 @@
+.place__image-button {
+    grid-area: place__image-button;
+    max-width: 460px;
+}
