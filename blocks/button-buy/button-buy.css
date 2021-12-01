@@ -4,6 +4,13 @@
   border-style: none;
   width: fit-content;
   height: fit-content;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 13px 20px;
 }
 
 .button-buy:hover {

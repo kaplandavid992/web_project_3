@@ -1,4 +1,4 @@
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/font.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -40,7 +40,6 @@
 @import url(../blocks/button-buy/button-buy.css);
 @import url(../blocks/button-buy/_place/button-buy_place.css);
 @import url(../blocks/button-buy/_cover-visit-us/button-buy_cover-visit-us.css);
-@import url(../blocks/button-buy/__paragraph/button-buy__paragraph.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
