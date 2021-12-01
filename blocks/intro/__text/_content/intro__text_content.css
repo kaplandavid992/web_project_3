@@ -1,3 +1,10 @@
 .intro__text_content {
-    margin-top: 4%;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media and (max-width: 768px) {
+  .intro__text_content {
+    margin-top: 90px;
+  }
 }

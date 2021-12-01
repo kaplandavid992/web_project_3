@@ -1,11 +1,18 @@
 .place__author__name-role {
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
-color: #FFFFFF;
-grid-area:place__author__name-role;
-margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  color: #ffffff;
+  grid-area: place__author__name-role;
+  margin: 0;
+  max-width: 456px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__author__name-role {
+    max-width: 288px;
+  }
 }

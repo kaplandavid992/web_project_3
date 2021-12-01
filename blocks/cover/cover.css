@@ -5,8 +5,9 @@
     margin-left: auto;
     width: 92.5%;
     position: relative;
-    min-height: 100vh;
+    min-height: 740px;
     background: url(../../images/cover_background.jpg);
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,5 +15,6 @@
 }
 
 .cover:hover .cover__overlay {
+    transition: ease-in .9s;
     opacity: 0.8;
 }

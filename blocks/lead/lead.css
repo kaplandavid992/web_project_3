@@ -1,21 +1,6 @@
 .lead {
    display: flex; 
    flex-direction: column;
-   justify-content: center;
-   width: 76.8%;
-   margin: auto;
+   align-items: center;
 }
 
-@media screen and (max-width:768px) {
-   .lead{
-      width: 93.2%;
-      height: 52.6%;
-   }
-}
-
-@media screen and (max-width:320px) {
-   .lead{
-      width: 90%;
-      height: 58.75%;
-   }
-}

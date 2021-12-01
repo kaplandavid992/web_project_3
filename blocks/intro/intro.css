@@ -1,5 +1,19 @@
 .intro {
-    width: 61.3%;
-    margin-right:27%;
-    margin-left: 11.5%;
+    margin-left: 148px;
+    margin-bottom: 118px;
+} 
+
+@media screen and (max-width:768px){
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

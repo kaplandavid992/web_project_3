@@ -2,7 +2,27 @@
     display: grid;
     grid-template-areas:
     "place__title place__author"
-    "place__image-button place__text";
-    gap: 4.8% 4%;
-    margin-bottom: 9.5%;
+    "place__image place__text"
+    "button-buy_place place__text";
+    gap: 48px 40px;
+    margin-bottom: 80px;
+}
+
+@media screen and  (max-width:768px) {
+    .place {
+        column-gap: 28px;
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and  (max-width:320px) {
+    .place {
+        grid-template-areas:"place__title" 
+        "place__author"
+        "place__image"
+        "place__text"
+        "button-buy_place";
+        row-gap: 30px;
+        margin-bottom: 50px;
+    }
 }

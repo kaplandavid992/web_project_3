@@ -1,6 +1,22 @@
 .place__author {
-    grid-area: place__author;
-    justify-content: flex-end;
-    display:flex;
-    flex-direction: column;
+  grid-area: place__author;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  max-width: 456px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__author {
+    max-width: 316px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__author {
+    max-width: 288px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

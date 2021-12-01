@@ -6,3 +6,8 @@
     width: fit-content;
     height: fit-content;
 }
+
+.button-buy:hover {
+    transition: ease-in 0.4s;
+    background-color: #0063D2;
+}

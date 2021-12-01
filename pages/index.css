@@ -1,4 +1,4 @@
-
+@import url(../vendor/fonts/inter.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -30,7 +30,6 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__visit-us/cover__visit-us.css);
 @import url(../blocks/cover/__visit-us/__button/cover__visit-us__button.css);
@@ -38,7 +37,7 @@
 @import url(../blocks/cover/__visit-us/__subtitle/cover__visit-us__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
-@import url(../blocks/button-buy/button-buy.css); 
+@import url(../blocks/button-buy/button-buy.css);
 @import url(../blocks/button-buy/_place/button-buy_place.css);
 @import url(../blocks/button-buy/_cover-visit-us/button-buy_cover-visit-us.css);
 @import url(../blocks/button-buy/__paragraph/button-buy__paragraph.css);
