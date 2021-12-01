@@ -8,6 +8,7 @@
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 3.2%;
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
