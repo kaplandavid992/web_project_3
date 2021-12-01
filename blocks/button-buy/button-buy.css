@@ -1,13 +1,12 @@
-
 .button-buy {
-    background-color: #0278FE;
-    border-radius: 4px;
-    border-style: none;
-    width: fit-content;
-    height: fit-content;
+  background-color: #0278fe;
+  border-radius: 4px;
+  border-style: none;
+  width: fit-content;
+  height: fit-content;
 }
 
 .button-buy:hover {
-    transition: ease-in 0.4s;
-    background-color: #0063D2;
+  transition: ease-in 0.4s;
+  background-color: #0063d2;
 }

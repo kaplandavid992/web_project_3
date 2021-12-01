@@ -1,20 +1,20 @@
 .cover {
-    margin-top: 1.85%;
-    margin-bottom: 7.7%;
-    margin-right: auto;
-    margin-left: auto;
-    width: 92.5%;
-    position: relative;
-    min-height: 740px;
-    background: url(../../images/cover_background.jpg);
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  margin-top: 1.85%;
+  margin-bottom: 7.7%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 92.5%;
+  position: relative;
+  min-height: 740px;
+  background: url(../../images/cover_background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cover:hover .cover__overlay {
-    transition: ease-in .9s;
-    opacity: 0.8;
+  transition: ease-in 0.9s;
+  opacity: 0.8;
 }
