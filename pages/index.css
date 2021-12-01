@@ -24,8 +24,8 @@
 @import url(../blocks/place/__text/__paragraph/place__text__paragraph.css);
 @import url(../blocks/place/__author/place__author.css);
 @import url(../blocks/place/__image-button/place__image-button.css);
-@import url(../blocks/place/__author/__artist/place__author__artist.css);
-@import url(../blocks/place/__author/__name-role/place__author__name-role.css);
+@import url(../blocks/place/__author/place__author-artist.css);
+@import url(../blocks/place/__author/place__author-name-role.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);

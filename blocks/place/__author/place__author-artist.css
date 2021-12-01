@@ -1,4 +1,4 @@
-.place__author__artist {
+.place__author-artist {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__author__artist {
+  .place__author-artist {
     max-width: 288px;
     max-height: 15px;
   }

@@ -1,4 +1,4 @@
-.place__author__name-role {
+.place__author-name-role {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__author__name-role {
+  .place__author-name-role {
     max-width: 288px;
   }
 }
