@@ -3,7 +3,8 @@
   grid-template-areas:
     "place__title place__author"
     "place__image place__text"
-    "button-buy_place place__text";
+    "button-buy_place place__text"
+    ". place__text";
   gap: 48px 40px;
   margin-bottom: 6.25%;
   grid-template-columns: 1fr 1fr;
