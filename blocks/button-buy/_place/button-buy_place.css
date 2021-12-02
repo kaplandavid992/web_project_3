@@ -4,10 +4,10 @@
 
 @media screen and (max-width: 320px) {
   .button-buy_place {
-    max-height: 48px;
-    max-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 50px;
+    max-height: 15%;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15.6%;
   }
 }

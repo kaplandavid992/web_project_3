@@ -1,20 +1,20 @@
 .intro__text_cite-author {
   text-align: right;
-  margin-bottom: 32px;
+  margin-bottom: 2.5%;
   font-size: 24px;
   line-height: 1.416;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text_cite-author {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 3.125%;
+    margin-right: 3.125%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text_cite-author {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

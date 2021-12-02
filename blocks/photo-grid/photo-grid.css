@@ -12,9 +12,9 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 90px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-top: 11.71%;
+    margin-right: 2.08%;
+    margin-left: 2.08%;
   }
 }
 
@@ -22,8 +22,8 @@
   .photo-grid {
     grid-template-columns: 1fr;
     gap: 12px;
-    margin-right: 16px;
-    margin-left: 16px;
-    margin-bottom: 62px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 19.375%;
   }
 }
