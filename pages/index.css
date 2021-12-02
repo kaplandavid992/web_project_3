@@ -21,20 +21,19 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__text/__paragraph/place__text__paragraph.css);
+@import url(../blocks/place/__text-paragraph/place__text-paragraph.css);
 @import url(../blocks/place/__author/place__author.css);
 @import url(../blocks/place/__image-button/place__image-button.css);
-@import url(../blocks/place/__author/place__author-artist.css);
-@import url(../blocks/place/__author/place__author-name-role.css);
+@import url(../blocks/place/__author-artist/place__author-artist.css);
+@import url(../blocks/place/__author-name-role/place__author-name-role.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__visit-us/cover__visit-us.css);
-@import url(../blocks/cover/__visit-us/__button/cover__visit-us__button.css);
-@import url(../blocks/cover/__visit-us/__title/cover__visit-us__title.css);
-@import url(../blocks/cover/__visit-us/__subtitle/cover__visit-us__subtitle.css);
+@import url(../blocks/cover/__visit-us-title/cover__visit-us-title.css);
+@import url(../blocks/cover/__visit-us-subtitle/cover__visit-us-subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @import url(../blocks/button-buy/button-buy.css);

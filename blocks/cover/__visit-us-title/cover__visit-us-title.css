@@ -1,4 +1,4 @@
-.cover__visit-us__title {
+.cover__visit-us-title {
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .cover__visit-us__title {
+  .cover__visit-us-title {
     font-size: 32px;
     line-height: 35px;
   }
