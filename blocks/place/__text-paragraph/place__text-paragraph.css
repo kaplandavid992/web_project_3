@@ -4,7 +4,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
   color: #ffffff;
   /* grid-area: place__text-paragraph; */
   margin-top: 25px;
@@ -17,16 +16,8 @@
 
 @media screen and (max-width: 768px) {
   .place__text-paragraph {
-    max-width: 352px;
-    
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .place__text-paragraph {
-    max-width: 288px;
-    
-  }
-}

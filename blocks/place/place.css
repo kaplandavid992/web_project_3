@@ -6,6 +6,7 @@
     "button-buy_place place__text";
   gap: 48px 40px;
   margin-bottom: 6.25%;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 510px) {
   .place {
     grid-template-areas:
       "place__title"

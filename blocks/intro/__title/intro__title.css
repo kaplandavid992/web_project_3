@@ -15,7 +15,7 @@
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 93.75%;
-    max-height: 22.65%;
+    margin-bottom: 5.5%;
   }
 }
 
@@ -25,5 +25,6 @@
     height: 43.75%;
     font-size: 32px;
     line-height: 1.09;
+    margin-bottom: 12.5%;
   }
 }
