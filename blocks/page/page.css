@@ -8,6 +8,6 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  font-family: "Inter";
+  font-family: Inter, Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
 }
