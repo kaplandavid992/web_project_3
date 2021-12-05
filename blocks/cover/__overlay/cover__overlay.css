@@ -6,3 +6,7 @@
   position: absolute;
 }
 
+.cover__overlay:hover {
+  transition: ease-in 0.9s;
+  opacity: 0.8;
+}

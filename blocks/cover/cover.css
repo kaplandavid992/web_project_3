@@ -15,18 +15,13 @@
   flex-direction: column;
 }
 
-.cover:hover .cover__overlay {
-  transition: ease-in 0.9s;
-  opacity: 0.8;
-}
-
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
     width: 100%;
   }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover {
     margin-top: 14px;
     width: 320px;

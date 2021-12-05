@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/page/page.css);
 
@@ -21,9 +22,9 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__button/place__button.css);
 @import url(../blocks/place/__text-paragraph/place__text-paragraph.css);
 @import url(../blocks/place/__author/place__author.css);
-@import url(../blocks/place/__image-button/place__image-button.css);
 @import url(../blocks/place/__author-artist/place__author-artist.css);
 @import url(../blocks/place/__author-name-role/place__author-name-role.css);
 
@@ -31,14 +32,13 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__visit-us/cover__visit-us.css);
 @import url(../blocks/cover/__visit-us-title/cover__visit-us-title.css);
 @import url(../blocks/cover/__visit-us-subtitle/cover__visit-us-subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__button/cover__button.css);
 
 @import url(../blocks/button-buy/button-buy.css);
 @import url(../blocks/button-buy/_place/button-buy_place.css);
-@import url(../blocks/button-buy/_cover-visit-us/button-buy_cover-visit-us.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

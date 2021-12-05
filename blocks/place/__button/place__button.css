@@ -1,9 +1,9 @@
-.button-buy_place {
+.place__button {
   grid-area: button-buy_place;
 }
 
 @media screen and (max-width: 320px) {
-  .button-buy_place {
+  .place__button {
     max-width: 288px;
     margin-left: 5%;
     margin-right: 5%;
