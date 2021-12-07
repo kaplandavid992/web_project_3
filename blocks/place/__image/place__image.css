@@ -3,7 +3,7 @@
   grid-area: place__image;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .place__image {
     max-width: 340px;
   }

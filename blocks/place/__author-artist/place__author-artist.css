@@ -10,10 +10,12 @@
   grid-area: place__author__artist;
   margin-bottom: 1.7%;
   max-width: 10.96%;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 320px) {
   .place__author-artist {
     max-width: 90%;
+    margin-bottom: 8px;
   }
 }

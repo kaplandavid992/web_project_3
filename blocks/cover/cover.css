@@ -13,11 +13,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.cover:hover .cover__overlay {
-  transition: ease-in 0.9s;
-  opacity: 0.8;
+  background-size: cover;
 }
 
 @media screen and (max-width: 975px) {
@@ -35,8 +31,8 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    width: 320px;
-    height: 254px;
+    max-width: 320px;
+    min-height: 254px;
     margin-bottom: 64px;
   }
 }
