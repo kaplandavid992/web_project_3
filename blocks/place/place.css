@@ -23,13 +23,13 @@
   }
 }
 
-@media (min-width: 401px) and (max-width: 600px) {
+/* @media (min-width: 401px) and (max-width: 600px) {
   .place {
-    grid-template-columns: 1fr 220px;
+    grid-template-columns: 1fr 1fr;
   }
-}
+} */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-areas:
       "place__title"
