@@ -1,18 +1,11 @@
 .place__text {
   grid-area: place__text;
-  max-width: 484px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 585px) {
   .place__text {
-    max-width: 340px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .place__text {
-    max-width: 288px;
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 428px;
   }
 }
