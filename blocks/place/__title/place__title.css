@@ -11,7 +11,7 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
