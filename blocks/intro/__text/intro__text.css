@@ -3,6 +3,8 @@
   line-height: 1.625;
   color: #ffffff;
   max-width: 720px;
+  margin-left: 11.56%;
+  margin-right: 32.18%;
 }
 
 @media screen and (max-width: 768px) {
@@ -11,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 585px) {
   .intro__text {
     margin-bottom: 90px;
   }

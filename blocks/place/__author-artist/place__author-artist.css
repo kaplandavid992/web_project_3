@@ -13,7 +13,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 585px) {
   .place__author-artist {
     max-width: 90%;
     margin-bottom: 8px;

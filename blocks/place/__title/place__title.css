@@ -11,7 +11,7 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 585px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;

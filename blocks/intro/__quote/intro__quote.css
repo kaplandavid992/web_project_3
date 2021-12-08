@@ -9,11 +9,15 @@
   margin-top: 0;
   margin-bottom: 10px;
   max-width: 720px;
+  margin-left: 11.56%;
+  margin-right: 32.18%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 585px) {
   .intro__quote {
     max-width: 288px;
     line-height: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

@@ -16,23 +16,17 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 975px) {
-  .cover {
-    width: 100%;
-    margin-top: 14px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .cover {
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 585px) {
   .cover {
     max-width: 320px;
     min-height: 254px;
     margin-bottom: 64px;
+    margin-top: 14px;
   }
 }

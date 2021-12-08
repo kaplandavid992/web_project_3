@@ -9,20 +9,26 @@
   max-width: 785px;
   text-align: left;
   margin-top: 0;
+  margin-left: 11.56%;
+  margin-right: 27.1%;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
     margin-bottom: 5.5%;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 585px) {
   .intro__title {
     width: 288px;
     font-size: 32px;
     line-height: 1.09;
     margin-bottom: 12.5%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
