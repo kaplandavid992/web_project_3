@@ -15,4 +15,5 @@
 .button-buy:hover {
   transition: ease-in 0.4s;
   background-color: #0063d2;
+  cursor: pointer;
 }

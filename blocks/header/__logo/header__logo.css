@@ -1,6 +1,6 @@
 .header__logo {
   max-width: 21%;
-  margin-top: 2.65%;
+  margin-top: 34px;
   margin-bottom: 90px;
 }
 
@@ -14,7 +14,7 @@
   .header__logo {
     max-width: 62.5%;
     height: 51.85px;
-    margin-top: 6.2%;
+    margin-top: 20px;
     margin-bottom: 50.15px;
   }
 }

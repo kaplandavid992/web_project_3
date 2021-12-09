@@ -1,9 +1,9 @@
 .intro {
-  margin-bottom: 9.2%;
+  margin-bottom: 118px;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-bottom: 11.7%;
+    margin-bottom: 90px;
   }
 }
