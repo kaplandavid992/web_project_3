@@ -3,3 +3,8 @@
   grid-area: place__image;
 }
 
+@media screen and (min-width: 461px) and (max-width: 585px) {
+  .place__image {
+    min-width: calc(100vw);
+  }
+}
