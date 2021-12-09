@@ -6,16 +6,23 @@
   max-width: 456px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
   .place__author {
     max-width: 316px;
   }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (min-width:321px) and (max-width: 585px) {
+  .place__author {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place__author {
     max-width: 288px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

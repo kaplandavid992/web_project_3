@@ -16,10 +16,18 @@
     max-width: 340px;
     font-size: 42px;
     line-height: 1.095;
+
   }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (min-width: 321px) and (max-width: 585px) {
+  .place__title {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;

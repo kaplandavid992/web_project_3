@@ -3,7 +3,7 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
   .lead__image {
     margin-bottom: 88px;
     max-width: 100%;

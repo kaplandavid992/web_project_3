@@ -8,7 +8,7 @@
   text-transform: uppercase;
   color: #aaaaaa;
   grid-area: place__author__artist;
-  margin-bottom: 1.7%;
+  margin-bottom: 8px;
   max-width: 10.96%;
   margin-top: 0;
 }
@@ -16,6 +16,5 @@
 @media screen and (max-width: 585px) {
   .place__author-artist {
     max-width: 90%;
-    margin-bottom: 8px;
   }
 }

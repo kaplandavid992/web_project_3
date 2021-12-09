@@ -13,7 +13,7 @@
   margin-right: 412px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
   .intro__author {
     margin-left: 24px;
     margin-right: 24px;

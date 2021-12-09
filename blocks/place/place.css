@@ -15,6 +15,7 @@
 @media screen and (max-width:860px) {
   .place{
   column-gap: 28px;
+  margin-bottom: 72px;
   }
 }
 
@@ -27,8 +28,13 @@
       "place__text"
       "button-buy_place";
     row-gap: 30px;
-    margin-bottom: 50px;
     grid-template-rows: min-content;
     grid-template-columns: 1fr;
+  }
+}
+
+@media  screen and (max-content: 320px) {
+  .place {
+    margin-bottom: 50px;
   }
 }
