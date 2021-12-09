@@ -33,7 +33,7 @@
   }
 }
 
-@media  screen and (max-content: 320px) {
+@media  screen and (max-width: 320px) {
   .place {
     margin-bottom: 50px;
   }
